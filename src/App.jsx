@@ -1,5 +1,5 @@
 import './App.css'
-import Course from './Course'
+import Course from './Course/Course'
 import Footer from './Footer'
 import Navbar from './Navbar'
 
