@@ -4,4 +4,11 @@
     border: 2px solid black;
     border-radius: 50px;
     font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 20px;  
+    text-align: center;
+}
+
+.card img{
+    width: 200px;
 }
