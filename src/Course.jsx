@@ -2,7 +2,7 @@ import react from './assets/react.png'
 function Course(props){
     return (
         <div className="card">
-            <img src={react} alt="" />
+            <img src={props.img} alt="" />
             <h3>{props.name}</h3>
             <p>{props.price}</p>
         </div>
