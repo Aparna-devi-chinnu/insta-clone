@@ -1,15 +1,13 @@
 import './App.css'
 import Course from './Course'
-import Footer from './Footer'
-import Navbar from './Navbar'
 
 function App() {
 
   return (
     <>
-      <Navbar/>
-      <Course/>
-      <Footer/>
+      <Course name="React" price="Rs.205"/>
+      <Course name="HTML" price="Rs.105"/>
+      <Course name="Java script" price="Rs.100"/>
     </>
 
   )

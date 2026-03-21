@@ -7,6 +7,7 @@
     margin: 20px;
     padding: 20px;  
     text-align: center;
+    display: inline-block; /*card aa same line la vara vaikarathuku*/
 }
 
 .card img{
