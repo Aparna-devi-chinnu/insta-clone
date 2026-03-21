@@ -1,13 +1,12 @@
-import react from './assets/react.png'
-function Course(props){
+import Loading from './assets/loading.png'
+function Course({img = Loading , name , price}){
     return (
         <div className="card">
-            <img src={props.img} alt="" />
-            <h3>{props.name}</h3>
-            <p>{props.price}</p>
+            <img src={img} alt="" />
+            <h3>{name}</h3>
+            <p>{price}</p>
         </div>
     );
 
 }
-
 export default Course;

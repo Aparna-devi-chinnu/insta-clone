@@ -11,7 +11,7 @@ function App() {
     <>
       <Course name="React" img={ReactIMG} price="Rs.205"/>
       <Course name="HTML" img={HTMLIMG} price="Rs.105"/>
-      <Course name="Java script" img={JSImage} price="Rs.100"/>
+      <Course name="Java script" price="Rs.100"/>
     </>
 
   )
