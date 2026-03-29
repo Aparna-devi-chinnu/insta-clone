@@ -1,4 +1,6 @@
 import Loading from './assets/loading.png'
+import PropTypes  from 'prop-types'
+
 function Course({img = Loading , name , price, rating=0, show=true}){
     if(show==true){
         return (
@@ -11,4 +13,11 @@ function Course({img = Loading , name , price, rating=0, show=true}){
     );
     }
 }
+
+Course.PropTypes = {
+    name:PropTypes.string,
+    rating: PropTypes.number,
+    show: PropTypes.bool
+}
+
 export default Course;
