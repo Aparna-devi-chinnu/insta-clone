@@ -13,7 +13,7 @@ function CourseList(){
             rating: 5,
             img : HTMLIMG
         },
-                {
+        {
             name:"React",
             price: "Rs.100",
             rating: 5,
@@ -27,8 +27,8 @@ function CourseList(){
         }
     ]
 
-   const courseMap =  courses.map((course) => 
-        <Course name={course.name} img={course.img} price={course.price} rating={course.rating}/>
+   const courseMap =  courses.map((course,index) => 
+        <Course key={index} name={course.name} img={course.img} price={course.price} rating={course.rating}/>
      )
 
     return (
