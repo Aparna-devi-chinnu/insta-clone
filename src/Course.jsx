@@ -1,8 +1,6 @@
 import Loading from './assets/loading.png'
-import PropTypes  from 'prop-types'
 
-function Course({img = Loading , name , price, rating=0, show=true}){
-    if(show==true){
+function Course({img = Loading , name , price, rating=0}){
         return (
         <div className="card">
             <img src={img} alt="" />
@@ -11,13 +9,6 @@ function Course({img = Loading , name , price, rating=0, show=true}){
             <span>rating : {rating}</span>
         </div>
     );
-    }
-}
-
-Course.PropTypes = {
-    name:PropTypes.string,
-    rating: PropTypes.number,
-    show: PropTypes.bool
 }
 
 export default Course;
